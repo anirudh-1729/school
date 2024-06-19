@@ -11,11 +11,11 @@ pipeline {
         stage('build') {
             steps {
                 echo 'Entering build stage'
-                script {
-                    sh """
+                 
+                    sh '''
                     ls
-                    """
-                }
+                    '''
+                
             }
         }
     }
