@@ -13,7 +13,7 @@ pipeline {
                 echo 'Entering build stage'
                  
                     sh '''
-                    ls
+                    dir
                     '''
                 
             }
