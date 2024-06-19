@@ -12,6 +12,8 @@ pipeline {
             steps {
                 echo 'Entering build stage'
                 bat 'mvn -v'
+                bat 'mvn clean package'
+                bat 'java -jar target\school-0.0.1-SNAPSHOT.jar'
             }
         }
     }
