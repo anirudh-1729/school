@@ -11,7 +11,7 @@ pipeline {
         stage('build') {
             steps {
                 echo 'Entering build stage'
-                dir
+                mvn clean package
                     
                 
             }
