@@ -11,10 +11,8 @@ pipeline {
         stage('build') {
             steps {
                 echo 'Entering build stage'
-                 
-                     '''
-                    dir
-                    '''
+                dir
+                    
                 
             }
         }
