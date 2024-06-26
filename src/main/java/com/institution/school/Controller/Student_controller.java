@@ -44,7 +44,7 @@ public class Student_controller {
     @PostMapping("/save-data")
     public void save_data( @RequestBody  Student student){
         
-        student_record.save_data(student);
+        student_record.save_data(student);//
     }
 
 }
